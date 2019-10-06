@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "057d9350-320d-403e-ab34-715660f5e4a2",
+  "alias": "ExcelChartsSliderWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Excel Charts Slider" },
+    "description": { "default": "Slide Chart Images from Excel Workbook" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Excel Charts Slider"
+    }
+  }]
+}

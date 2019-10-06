@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "excel-charts-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/excelChartsSlider/ExcelChartsSliderWebPart.js",
+          "manifest": "./src/webparts/excelChartsSlider/ExcelChartsSliderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExcelChartsSliderWebPartStrings": "lib/webparts/excelChartsSlider/loc/{locale}.js"
+  }
+}

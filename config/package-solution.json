@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "excel-charts-slider-client-side-solution",
+    "id": "d2594dac-451d-4d8d-9bee-a64eda23c870",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": true
+  },
+  "paths": {
+    "zippedPackage": "solution/excel-charts-slider.sppkg"
+  }
+}

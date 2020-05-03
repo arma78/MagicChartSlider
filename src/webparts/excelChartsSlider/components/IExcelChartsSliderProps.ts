@@ -1,21 +1,12 @@
-import {SPHttpClient} from "@microsoft/sp-http";
-
+import {SPHttpClient, } from "@microsoft/sp-http";
+import { MSGraphClient } from '@microsoft/sp-http';
+import { WebPartContext } from '@microsoft/sp-webpart-base';
 export interface IExcelChartsSliderProps {
-  listName: string;
+
+  wbId: string;
   description: string;
-  siteurl: string;
-  wbName: string;
   title: string;
   spHttpClient: SPHttpClient;
-  showThumbs:boolean;
-  autoPlay:boolean;
-  infiniteLoop:boolean;
-  interval:number;
-  showArrows:boolean;
-  showStatus:boolean;
-  swipeable:boolean;
-  stopOnHover:boolean;
-  showIndicators:boolean;
-  transitionTime:number;
-
+  graphClient: MSGraphClient;
+  //context: WebPartContext;
 }

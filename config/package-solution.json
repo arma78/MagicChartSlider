@@ -3,9 +3,15 @@
   "solution": {
     "name": "excel-charts-slider-client-side-solution",
     "id": "d2594dac-451d-4d8d-9bee-a64eda23c870",
-    "version": "1.0.0.0",
+    "version": "1.0.0.5",
     "includeClientSideAssets": true,
-    "isDomainIsolated": true
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite"
+      }
+    ]
   },
   "paths": {
     "zippedPackage": "solution/excel-charts-slider.sppkg"

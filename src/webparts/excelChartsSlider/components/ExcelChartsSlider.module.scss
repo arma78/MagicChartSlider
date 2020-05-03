@@ -1,6 +1,37 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
 .excelChartsSlider {
+
+  .stackKeywords
+  {
+    background-color: $ms-color-themeDark;
+  }
+  .KW
+  {
+    cursor:pointer;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    background: #0078D4;
+    border-spacing: 3px;
+    font-size: 12px;
+    color: white ;
+    @include ms-Grid-col;
+    @include ms-sm12;
+    @include ms-md4;
+    @include ms-lg2;
+  }
+  .keywordsDiv
+  {
+    width: 100%;
+  }
+
+.Charthr
+{
+  height:2px;border-width:0;color:#0078D4;background-color:#7e159e
+}
+
+
   .container {
     max-width: 700px;
     margin: 0px auto;

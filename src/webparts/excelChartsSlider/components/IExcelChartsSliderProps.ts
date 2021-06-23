@@ -1,6 +1,4 @@
-import {SPHttpClient, } from "@microsoft/sp-http";
-import { MSGraphClient } from '@microsoft/sp-http';
-import { WebPartContext } from '@microsoft/sp-webpart-base';
+import {SPHttpClient, MSGraphClient } from '@microsoft/sp-http';
 export interface IExcelChartsSliderProps {
 
   wbId: string;
@@ -8,5 +6,4 @@ export interface IExcelChartsSliderProps {
   title: string;
   spHttpClient: SPHttpClient;
   graphClient: MSGraphClient;
-  //context: WebPartContext;
 }

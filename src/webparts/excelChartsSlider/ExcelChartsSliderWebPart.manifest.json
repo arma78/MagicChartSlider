@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
   "id": "057d9350-320d-403e-ab34-715660f5e4a2",
-  "alias": "ExcelChartsSliderWebPart",
+  "alias": "MagicChartSlider",
   "componentType": "WebPart",
 
 
@@ -14,11 +14,12 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
     "group": { "default": "Other" },
-    "title": { "default": "Excel Charts Slider" },
-    "description": { "default": "Slide Chart Images from Excel Workbook" },
-    "officeFabricIconFontName": "Page",
+    "title": { "default": "Magic Chart Slider" },
+    "description": { "default": "Magic Chart Slider - Filter charts as images from your Microsoft Excel WorkBook saved in your Microsoft Drive." },
     "properties": {
-      "description": "Armin Razic 2020 - MS Graph v.1.0 Excel WorkBook Charts from personal drive"
-    }
+      "description": "Magic Chart Slider - Filter charts as images from your Microsoft Excel WorkBook saved in your Microsoft Drive.",
+      "wbId":""
+    },
+    "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAgFSURBVFhHnZhvrBxVGcbfmdnZ3bv3cluwphqUJhDwDyEkArbFCEZjNGmjJuQSSCPhQ5FAY2riB/hmTCQl+gH4UBNrYiKaaGLCB4M20ISGomBSgmgvENQaQkQvtWBzb3d3dv76PO87Z3d2d3bvpef03rndmfe8z3ne35w5s94vDjxdpJJKA716DNBzdA+drUD30TP0yWurxwxHvy62QGyBWL8hSZ5I6IWSoIfoKY6B19AYHzEFYrxffvN3BUVEeR/D2kUNaZbHOYnGRFpMInGZaFpkFmVy7Rd3yecf/IyO4drpX6/K6m/OiiwUw1jq8d9YOyOvn/urtPx2OSBPxjqwzkQTZHpxsYk4N3uOQTfGYwtJ+qnGpmkqWZbp30glKWrGWMYwljF+luOQpQiTYSIOOBLJhPNF5lsUWXi5Xl8UhXheOUGvwDnGUpzFcgwfJuPj+W4kuNyJtP/PF8nPakX6oY4ehhCbJHp9lsA5iPSQrxrrj9wZJaryNO2G2T5PpGtjIgF3kqJuGHcwGEir1dJrm82W3hTMR0MoXGXSMVpo9R1ZWU20NZH1XLmWF7k0Gg39m6LiOGZ6idOBiuZYNgnL53MGQHGYqFoyHueVbDOuGpqIsb6KzDMTSvidSJZ3HH7L53Nwrh3VRKPyWqKtwG+zHYlsoWNxKhPSjXH4XeNnI/iZz7Dy+QETVBNdCvxsjB5EiRSRSD/uy5MvHJM8desTYmfCz3+EnyLH4DcBk24w0XyuxkVmUSGf3n+1fOGePfKrt47J448+Idd99SqJIuOoDv5Q4bd8m8LvElWXESfSbK8TGUqv25e9994oP1/9sfz2hafkU3fukt333iBJN50JfzKE30yZgN/qWuVqlki2epGJXNZelhMnnpWbb7xFOq2OXjuAW75H+BEzF/6ROZrP4Lf6TpasHn5eNykSbqD3864894fnZP++/XouTmJptVuaWBGZCX+g+WbAb7Wt42o2/E6kyHJ7uxw9+UM58v1HdSyWqhk2lSfuJDR2Bvx8LJk5rpw18HvYnvQuRBJdiPWni7/TDZ6p48pEbmtul5/+6XE5uPuw5Lm5EgRIgOdwI0AMHJsNf1P5M3Mouw7+AuUAwPc8+TX5+hO3y8rRL8sdR78kX/nerRJvJOqkm5ETuRgsyUtvPy+f2HG9dNpLYMOXFG7wqA9rpRjrpMJPxwx+iiPiMcRSNMfk2O5xOAV/kDekc0VLdl6zQ5Y/3pEduy6XpY+04bnNhr81EY6M6SYbcuadP8vea24H3JmVDiVkKelWEmNPNoTf3CT8LCdbWMLv3OeRIqfgT3PbM+nACEqyRJoNbAJLgI0rY3K5vU1+8uJj8q1bvyO9QVcT0I2E0HNJmIQf9WHbMvx0zdzAX+U+ibczxYVBKFFcARidN8O25uXK1X17DstGvK7xFMy9XQNu1MKPIx2nW3SNLUvgfQm/Kyc1KfyOGeeaawSYCVkSXmx3pnH14tsn5ZMfvkEWWou4YVhasgHnSzMMfrgArgx+uF+BvwnoDf5wCD8b83GcEn4+aM0NDsLGGRHgnHslH2Flcoq7CK5e+/dfZM/VtylX5qSJDuG0g5/N3CD8mHwd/Ch3Lfz85UqkA+taIzojloNvL0mMRAowuVqWY+Dqvr2HlStz20rFklXhD/BGlCZYJyfg5xpm8KOsQKUWfrWtVDoOv601hL/NI4LJ1dGTP5ID190v7/7nXem+15fee5HEA4hAd/Ar9JXjJPyOY2V7PvzUbm0EvwHs4F9qLMnzb56Qux9ckW8/e0Du//2KHHz6G/LA8Tvlqt0flXTAVzW4Xy4F8+DnjTWEP90EflffafixL8dysZGsy+vg6uYrP6fn6GgDotko3nYFuiyiYSFGbIo7dFP4MYm58A85wyBsI/gLuWx5Ubk6CK4GeDFWNko32Lhvtwc9BPARlHKBhH9wf7iMXDr8vDPr4A/k4R88JA/c9l1drzIk5az5wupWb3UDfQh/iUGAenCChB8hegezTcNvpsyAn4pH8A9K+I8/c1xuuvaz0m52xMvhgG80jq3e8F03A/PgLwK+UWurwp8r/Ob2luBvYcvb7Xbl1KlTsnL3HZJgL+9ccWyMAVyWbBr+aAg/lx5mqsKf18BPcXPhP3TokBx55Iis/+8irrAZDcATXXYAazlQOmOjhB9ujuBvfmD4qQGOjcPvNTx55/y/1LmVlRW9WPMV4AqdLjDcAcxEScZveSrwg6Vx+OHGTPhtz181R+FX+1WUwY/zcuWOj+kA+/bt06Nb+dkc/K5kbJvDDzfwrw5+LkVbg1+XC8wT5ej1enoztFvt4banCr+7AS4FfotlFSbhN3HT8HNq+oOFE7PiN4BRbABPwu++41KA0TlFOtTEuc3gd7HFFPwmEmaH4uFVvh20FdhmgFf7srlSLXVsy9wJOhiEsm3qBr/olpplawZNTcor3LkW3ObuZAGxdsPbpIexGFtj/SbWUMTDCO051J1d+4eWzMMker2+vPzGTtl4/6LOnNBG78eyeu4VCcJA+n//r0SvnBdggbsskaXti/LS307LubUL0u9H8sfTHzKGuCTgZYQMv3buVQnbDTn/z53SeLUnBW7OGNcsLnfk5TOr8tbaGmZgr4CDfKDvD97P7nqqOHn2GVWsVoKFi+s95Yl7KB8rPz6U9pI5meBhnUW4d8pzFL6wiHeC0F5Uuut9/SLYnWeZ2sst9SnF/j/tj8e2F3CO37+gMz9vkJt27ZX/AzFBTZSKD40TAAAAAElFTkSuQmCC"
   }]
 }

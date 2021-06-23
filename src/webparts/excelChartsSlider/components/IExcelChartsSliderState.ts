@@ -8,8 +8,12 @@ export interface IExcelChartsSliderState {
   title: string;
   wbId: string;
   loading: boolean;
+  loadingChart: boolean;
   selectedKeyword:string;
   selectedChart:string;
   active: string;
   activeChart: string;
+  chart:string;
+  chartspans:string;
+  imagediv:string;
 }

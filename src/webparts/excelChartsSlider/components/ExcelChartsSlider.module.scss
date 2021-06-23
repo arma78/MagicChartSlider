@@ -1,6 +1,11 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
 .excelChartsSlider {
+  .container {
+    max-width: 800px;
+    max-height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+
 
   .stackKeywords
   {
@@ -32,11 +37,7 @@
 }
 
 
-  .container {
-    max-width: 700px;
-    margin: 0px auto;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
-  }
+
 
   .row {
     @include ms-Grid-row;
@@ -52,6 +53,7 @@
     @include ms-xlPush2;
     @include ms-lgPush1;
   }
+
 
   .title {
     @include ms-font-xl;
@@ -102,4 +104,5 @@
       display: inline-block;
     }
   }
+}
 }

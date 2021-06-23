@@ -1,6 +1,6 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Load Excel Charts from personal drive using MS Graph v.1.0 - Armin Razic 2020",
+    "PropertyPaneDescription": "Magic Chart Slider - Filter charts as images from your Microsoft Excel WorkBook saved in your Microsoft Drive.",
     "BasicGroupName": "Group Name",
     "wbNameFieldLabel":"Excel Workbook Name",
     "wbIdFieldLabel":"Enter your Excel Workbook ID:",

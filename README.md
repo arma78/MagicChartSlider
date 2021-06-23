@@ -25,3 +25,4 @@ gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
 "# MagicChartSlider" 
+"# MagicChartSlider" 

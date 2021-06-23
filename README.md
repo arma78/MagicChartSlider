@@ -26,3 +26,4 @@ gulp bundle - TODO
 gulp package-solution - TODO
 "# MagicChartSlider" 
 "# MagicChartSlider" 
+"# MagicChartSlider" 
